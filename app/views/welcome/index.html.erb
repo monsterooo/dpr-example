@@ -1,0 +1,10 @@
+<h1>这是DPR一个Playground</h1>
+<p>Find me in app/views/welcome/index.html.erb</p>
+<p>Devise: 灵活的身份验证方案(本地、github、twitter)</p>
+<p>Pundit: 简单的授权类</p>
+<p>Rolify: 角色资源管理库</p>
+
+
+<% flash.each do |key, value| %>
+  <%= content_tag :div, value, class: "flash #{key}" %>
+<% end %>
